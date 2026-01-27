@@ -7,7 +7,7 @@ class Meteorologia {
             "latitud": 43.247127,
             "longitud": -5.563776
         };
-        this.apiKey = "YOUE_API_KEY";
+        this.apiKey = "YOUR_API_KEY";
         this.getMeteo();
         this.getPrevision();
     }
@@ -236,4 +236,5 @@ class Meteorologia {
 }
 
 var meteorologia = new Meteorologia();
+
 

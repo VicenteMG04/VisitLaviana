@@ -101,7 +101,7 @@ class Noticias {
             url: 'https://newsdata.io/api/1/news',
             method: 'GET',
             data: {
-                apikey: 'pub_e44d0d6c952f4dff867601ea8e878277',
+                apikey: 'YOUR_API_KEY',
                 q: 'Laviana',
                 language: 'es',
                 country: 'es'
@@ -134,3 +134,4 @@ class Noticias {
 
 var carrusel = new Carrusel();
 var noticias = new Noticias();
+
